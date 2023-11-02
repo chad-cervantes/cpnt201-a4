@@ -23,7 +23,8 @@ document.querySelector('#app').innerHTML = `
     </a>
     <h1>Hello Vite!</h1>
     <h2>Today's date: ${date1}</h2>
-    <h2>${df} days</h2>
+    <h2>Fall 2023 Semester start date: ${date2}</h2>
+    <h2>Number of days since the program started: ${df} days</h2>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
