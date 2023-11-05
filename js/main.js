@@ -21,13 +21,14 @@ document.querySelector('#app').innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite!</h1>
-    <h2>Today's date: ${date1}</h2>
-    <h2>${df} days</h2>
+    <h1 class="bg-slate-50">Hello Vite!</h1>
+    <h2 class="text-5xl">Today's date: ${date1}</h2>
+    <h2>Fall 2023 Semester start date: ${date2}</h2>
+    <h2>Number of days since the program started: ${df} days</h2>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
-    <p class="read-the-docs">
+    <p class="text-slate-50">
       Click on the Vite logo to learn more
     </p>
   </div>
