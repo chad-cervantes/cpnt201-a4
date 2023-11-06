@@ -22,7 +22,7 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1 class="bg-slate-50">Hello Vite!</h1>
-    <h2 class="text-5xl">Today's date: ${date1}</h2>
+    <h2 class="text-5xl">${date1}</h2>
     <h2>Fall 2023 Semester start date: ${date2}</h2>
     <h2>Number of days since the program started: ${df} days</h2>
     <div class="card">
