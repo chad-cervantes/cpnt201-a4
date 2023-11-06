@@ -4,7 +4,7 @@ import viteLogo from '/images/vite.svg'
 import { setupCounter } from '/js/counter.js'
 import dayjs from 'dayjs'
 
-const date1 = dayjs('Oct 30, 2023')
+const date1 = dayjs()
 const date2 = dayjs('Sept 5, 2023')
 
 //Difference in days
